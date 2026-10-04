@@ -1,0 +1,18 @@
+{
+  "name": "AI GTM automation ICP",
+  "industries": ["software", "saas", "information technology", "it services", "technology"],
+  "business_models": ["b2b", "b2b saas", "enterprise software"],
+  "employee_min": 30,
+  "employee_max": 50,
+  "sales_motion_terms": ["book a demo", "request a demo", "talk to sales", "contact sales", "sales team"],
+  "manual_research_terms": ["account research", "prospect research", "lead research", "sales development", "sdr", "account executive"],
+  "growth_terms": ["we're hiring", "we are hiring", "open positions", "job openings", "hiring multiple roles", "raised $", "funding round", "series a", "series b", "series c", "expanding into", "new office", "growing team"],
+  "automation_terms": ["manual", "workflow", "sales operations", "revenue operations", "revops", "go-to-market", "gtm"],
+  "weights": {
+    "industry_match": 25,
+    "company_type_match": 20,
+    "company_size_match": 20,
+    "sales_motion_match": 20,
+    "growth_signal_match": 15
+  }
+}

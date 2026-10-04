@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "name": "ExampleCo",
+  "website": "https://example.com/",
+  "industry": "B2B software",
+  "business_model": "B2B SaaS",
+  "estimated_employee_range": "30-39",
+  "target_market": "Sales and revenue teams",
+  "description": "AI workflow software for revenue teams.",
+  "analyzed_at": "2026-10-04T12:00:00Z",
+  "score": {
+    "industry_match": 25,
+    "company_type_match": 20,
+    "company_size_match": 20,
+    "sales_motion_match": 20,
+    "growth_signal_match": 15,
+    "total": 100,
+    "explanation": "Industry fit: 25/25 ...\nTotal: 100/100"
+  },
+  "signals": [
+    {
+      "id": 1,
+      "name": "Demo-led sales motion",
+      "evidence": "Book a demo with our sales team",
+      "source_url": "https://example.com/",
+      "confidence": 0.85,
+      "points": 12
+    }
+  ]
+}
