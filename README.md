@@ -1,6 +1,6 @@
 # ICP Engine
 
-ICP Engine turns a company website or CSV lead list into structured, evidence-backed account intelligence and a configurable ICP score. It demonstrates the real work of AI GTM engineering: collecting public data, turning ambiguous web copy into useful fields, applying a consistent qualification policy, and moving results through an API-ready workflow.
+ICP Engine turns a company website or CSV lead list into structured, evidence-backed account intelligence and a configurable ICP score. It collects public company data, extracts useful business signals, applies a consistent qualification policy, and returns structured results through an API-ready workflow.
 
 ## The problem
 
