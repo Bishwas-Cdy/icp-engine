@@ -1,10 +1,10 @@
-# SignalForge
+# ICP Engine
 
-SignalForge turns a company website or CSV lead list into structured, evidence-backed account intelligence and a configurable ICP score. It demonstrates the real work of AI GTM engineering: collecting public data, turning ambiguous web copy into useful fields, applying a consistent qualification policy, and moving results through an API-ready workflow.
+ICP Engine turns a company website or CSV lead list into structured, evidence-backed account intelligence and a configurable ICP score. It demonstrates the real work of AI GTM engineering: collecting public data, turning ambiguous web copy into useful fields, applying a consistent qualification policy, and moving results through an API-ready workflow.
 
 ## The problem
 
-GTM teams spend hours opening company sites, estimating fit, copying findings into a CRM, and explaining why an account is worth attention. Pure LLM scoring is fast but inconsistent and hard to audit. SignalForge separates interpretation from scoring: website and optional LLM extraction produce structured facts and cited signals, while deterministic code applies the ICP.
+GTM teams spend hours opening company sites, estimating fit, copying findings into a CRM, and explaining why an account is worth attention. Pure LLM scoring is fast but inconsistent and hard to audit. ICP Engine separates interpretation from scoring: website and optional LLM extraction produce structured facts and cited signals, while deterministic code applies the ICP.
 
 ## Features
 
@@ -53,7 +53,7 @@ Docker is also supported:
 docker compose up --build
 ```
 
-For PostgreSQL, change `DATABASE_URL` to a SQLAlchemy URL such as `postgresql+psycopg://user:password@localhost/signalforge`. Schema creation is automatic for this demo project.
+For PostgreSQL, change `DATABASE_URL` to a SQLAlchemy URL such as `postgresql+psycopg://user:password@localhost/icp-engine`. Schema creation is automatic for this demo project.
 
 ## API examples
 
@@ -125,7 +125,7 @@ Add portfolio screenshots here after running the demo:
 
 ## Limitations
 
-- Website-derived employee counts are estimates and are often absent; SignalForge reports unknown rather than fabricating a value.
+- Website-derived employee counts are estimates and are often absent; ICP Engine reports unknown rather than fabricating a value.
 - JavaScript-only pages, robots restrictions, login walls, and anti-bot systems can reduce available evidence.
 - Batch rows run sequentially for this portfolio-scale service.
 - Deterministic extraction favors precision over broad recall. LLM quality depends on the configured provider and model.
@@ -141,4 +141,4 @@ Add portfolio screenshots here after running the demo:
 
 ## Why this matters for GTM teams
 
-SignalForge makes qualification consistent and reviewable. Reps can see which fact affected a score and open its source, RevOps can change the ICP without rewriting prompts, and engineering teams get structured JSON that can flow into routing, sequencing, and CRM automation.
+ICP Engine makes qualification consistent and reviewable. Reps can see which fact affected a score and open its source, RevOps can change the ICP without rewriting prompts, and engineering teams get structured JSON that can flow into routing, sequencing, and CRM automation.
